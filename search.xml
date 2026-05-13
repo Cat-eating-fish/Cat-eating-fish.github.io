@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2026/01/23/hello-world/"/>
-      <url>/2026/01/23/hello-world/</url>
+      <title>一些工具推荐</title>
+      <link href="/2026/05/14/%E4%B8%80%E4%BA%9B%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/"/>
+      <url>/2026/05/14/%E4%B8%80%E4%BA%9B%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="🎵-音乐解锁工具"><a href="#🎵-音乐解锁工具" class="headerlink" title="🎵 音乐解锁工具"></a>🎵 音乐解锁工具</h2><p><a href="https://demo.unlock-music.dev/">Unlock Music</a> - 解锁网易云、QQ音乐等已购音乐的加密保护</p><p>支持格式：ncm, qmc, mflac, mgg, kgm, xm, kwm 等</p><h2 id="🎯-核心功能"><a href="#🎯-核心功能" class="headerlink" title="🎯 核心功能"></a>🎯 核心功能</h2><table><thead><tr><th>功能</th><th>说明</th></tr></thead><tbody><tr><td><strong>解密已购音乐</strong></td><td>解锁网易云音乐、QQ音乐等平台下载的加密音乐文件</td></tr><tr><td><strong>格式转换</strong></td><td>将平台专属格式转换为通用音频格式（如 MP3、FLAC）</td></tr><tr><td><strong>保留音质</strong></td><td>转换后保持原始音质，不损失音频质量</td></tr></tbody></table><h2 id="📁-支持格式"><a href="#📁-支持格式" class="headerlink" title="📁 支持格式"></a>📁 支持格式</h2><ul><li><strong>网易云</strong>：ncm、mflac、mgg</li><li><strong>QQ音乐</strong>：qmc、kgm</li><li><strong>酷狗音乐</strong>：kgm、xm</li><li><strong>酷我音乐</strong>：kwm</li><li>其他常见加密格式</li></ul><h2 id="💡-使用场景"><a href="#💡-使用场景" class="headerlink" title="💡 使用场景"></a>💡 使用场景</h2><ul><li>在<strong>非官方播放器</strong>（如车机、MP3）播放已购音乐</li><li><strong>备份个人音乐库</strong>，防止平台下架导致歌曲丢失</li><li>将音乐导入到其他设备或软件中使用</li></ul><h2 id="⚠️-注意事项"><a href="#⚠️-注意事项" class="headerlink" title="⚠️ 注意事项"></a>⚠️ 注意事项</h2><blockquote><p>该工具仅适用于<strong>用户已购买&#x2F;已下载</strong>的音乐文件，用于个人备份和设备兼容性转换。请遵守相关平台的使用条款和版权法规。</p></blockquote><hr><h2 id="WizTree-是一款-Windows-磁盘空间分析工具，特点是："><a href="#WizTree-是一款-Windows-磁盘空间分析工具，特点是：" class="headerlink" title="WizTree 是一款 Windows 磁盘空间分析工具，特点是："></a>WizTree 是一款 Windows 磁盘空间分析工具，特点是：</h2><h2 id="⚡-核心特点"><a href="#⚡-核心特点" class="headerlink" title="⚡ 核心特点"></a>⚡ 核心特点</h2><table><thead><tr><th>特性</th><th>说明</th></tr></thead><tbody><tr><td><strong>极速扫描</strong></td><td>直接读取 NTFS 主文件表（MFT），几秒内完成全盘扫描</td></tr><tr><td><strong>可视化展示</strong></td><td>树状图 + 矩形图（Treemap）直观显示文件&#x2F;文件夹占用</td></tr><tr><td><strong>排序筛选</strong></td><td>按大小、修改时间排序，快速定位大文件</td></tr><tr><td><strong>免费轻量</strong></td><td>个人版免费，体积小、免安装（绿色版）</td></tr></tbody></table><h2 id="🎯-适用场景"><a href="#🎯-适用场景" class="headerlink" title="🎯 适用场景"></a>🎯 适用场景</h2><ul><li><strong>磁盘满了找原因</strong> — 一眼看出什么文件&#x2F;文件夹占用最多空间</li><li><strong>清理大文件</strong> — 快速定位电影、日志、缓存等体积大的文件</li><li><strong>整理硬盘</strong> — 发现重复文件、废弃项目</li></ul><h2 id="📥-下载"><a href="#📥-下载" class="headerlink" title="📥 下载"></a>📥 下载</h2><p>官网：<a href="https://diskanalyzer.com/">https://diskanalyzer.com/</a></p><blockquote><p>类似工具：SpaceSniffer、TreeSize、WinDirStat，但 WizTree 扫描速度最快。</p></blockquote><p>&nbsp;</p>]]></content>
       
       
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tools </tag>
+            
+        </tags>
       
     </entry>
     
