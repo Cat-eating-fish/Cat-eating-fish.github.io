@@ -1,0 +1,154 @@
+# Hexo配置
+## 文档：  https://hexo.io/docs/configuration.html
+## 源代码：https://github.com/hexojs/hexo/
+
+# Site # 站点设置
+title: "欢迎来到Cat-eating-fish的博客"
+subtitle:                           # 网站的副标题
+description: 'by Cat-eating-fish'                     # 网站的描述，用于SEO和元数据
+keywords:                           # 网站的关键词，支持多个值，用于SEO
+author: Cat-eating-fish             # 您的名字
+language:                         # 网站的语言，使用2字母的ISO-639-1代码或其变体，默认为en
+  - zh-CN
+  - zh-TW
+  - zh-HK
+  - Ja
+  - ko
+  - en
+
+timezone: 'Asia/Shanghai'                        # 网站的时区，Hexo默认使用您计算机上的设置
+# 可用时区列表：https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# 例如：America/New_York, Japan, UTC
+
+
+# URL # 链接设置
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project' # 在此设置您的站点URL。例如，如果您使用GitHub Page，请将url设置为'https://username.github.io/project'
+## 在此设置您的站点网址。例如，如果您使用 GitHub Pages，请将 url 设置为 'https://username.github.io/project'
+url: https://cat-eating-fish.github.io
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true   # Set to false to remove trailing 'index.html' from permalinks # 设置为false以从永久链接中删除尾随的'index.html'
+                         # 设置为 false 可从永久链接中移除末尾的 'index.html'
+  trailing_html: true    # Set to false to remove trailing '.html' from permalinks # 设置为false以从永久链接中删除尾随的'.html'
+                         # 设置为 false 可从永久链接中移除末尾的 '.html'
+
+
+
+
+# Directory # 目录设置
+source_dir: source                 # 源文件夹，您的内容存储位置
+public_dir: public                 # 公共文件夹，静态站点将在这里生成
+tag_dir: tags                      # 标签目录
+archive_dir: archives              # 归档目录
+category_dir: categories           # 分类目录
+code_dir: downloads/code           # 代码目录（source_dir的子目录）
+i18n_dir: :lang                    # 国际化目录
+skip_render:
+
+
+# Writing # 写作设置
+new_post_name: :title.md           # 新帖子的文件名
+default_layout: post               # 默认布局,默认为 post，可选值：post, page, draft 等
+titlecase: false                   # 将标题转换为标题格式（首字母大写）
+external_link:                     # 外部链接设置
+  enable: true                     # 在新标签页中打开外部链接 true or false
+  field: site                      # 应用范围：site（整个站点）或 post（仅文章）
+  exclude: ''                      # 排除的主机名，需要时指定子域名，包括 www 例如：example.com, www.example.com
+filename_case: 0                   # 文件名大小写转换：0 保持原样，1 转换为小写，2 转换为大写
+render_drafts: false               # 是否渲染草稿，true or false
+post_asset_folder: false           # 启用/禁用资产文件夹，true or false
+relative_link: false               # 是否使链接相对于根文件夹，true or false
+future: true                       # 是否发布未来的文章，true or false
+syntax_highlighter: prismjs        # 语法高亮引擎，可选值：highlight.js, prismjs
+
+highlight:                         # highlight.js 配置
+  line_number: true                # 显示行号
+  auto_detect: false               # 自动检测语言
+  tab_replace: ''                  # 用空格替换制表符
+  wrap: true                       # 是否将代码块包裹在 <div> 中
+  hljs: false                      # 是否使用 highlight.js 默认样式
+
+prismjs:                           # prism.js 配置
+  preprocess: true                 # 预处理代码块
+  line_number: true                # 显示行号
+  tab_replace: ''                  
+
+# Home page setting # 首页设置
+# path: Root path for your blogs index page. (default = '') 
+# path: 博客索引页的根路径。(默认 = '')
+# per_page: Posts displayed per page. (0 = disable pagination) 
+# per_page: 每页显示的帖子数。(0 = 禁用分页)
+# order_by: Posts order. (Order by date descending by default) 
+# order_by: 帖子顺序。(默认按日期降序)
+
+
+
+# 首页设置
+# 由 hexo-generator-index 插件生成的首页配置
+index_generator:                   # 首页生成器
+  path: ''                         # 首页路径
+  per_page: 10                     # 每页显示的文章数，0表示禁用分页
+  order_by: -date                  # 文章排序方式，-date表示按日期降序（最新的在前）
+
+
+# 分类与标签
+# 默认分类
+# 当文章未指定分类时，会使用此默认分类
+default_category: uncategorized    # 默认分类 
+category_map:                      # 分类别名映射 
+tag_map:                           # 标签别名映射
+
+# Metadata elements                # 元数据元素
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta 
+
+meta_generator: true               # 是否启用meta generator标签，true or false
+
+
+# Date / Time format # 日期/时间格式
+## Hexo uses Moment.js to parse and display date              # Hexo使用Moment.js解析和显示日期
+## You can customize the date format as defined in            # 您可以按照以下定义自定义日期格式
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+
+## updated_option supports 'mtime', 'date', 'empty' # updated_option支持'mtime', 'date', 'empty'
+# mtime: 使用文件修改时间作为 updated 值
+# date: 使用 date 值作为 updated 值
+# empty: 当未提供时，不设置 updated 值
+updated_option: 'mtime'
+
+# Pagination # 分页设置
+# 设置per_page为0以禁用分页
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s) # 包含/排除文件
+## include:/exclude: options only apply to the 'source/' folder    # include:/exclude: 选项仅适用于'source/'文件夹
+include: []
+exclude: []                                                        # 排除文件
+ignore:
+
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]
+  default_language: zh-CN
+  languages:
+    - zh-CN
+    - zh-TW
+    - zh-HK
+    - Ja
+    - ko
+    - en
+
+aplayer:
+  meting: true
+  asset_inject: false
+
+
+# Extensions # 扩展设置
+# 插件：https://hexo.io/plugins/
+# 主题：https://hexo.io/themes/
+theme: butterfly
+
