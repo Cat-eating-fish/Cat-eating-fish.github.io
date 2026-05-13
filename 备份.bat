@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 cd /d e:\Hexo\blog
 echo ===== 正在备份博客源码到 GitHub =====
 git add .
