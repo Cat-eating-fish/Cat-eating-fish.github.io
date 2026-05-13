@@ -57,7 +57,7 @@ external_link:                     # 外部链接设置
   exclude: ''                      # 排除的主机名，需要时指定子域名，包括 www 例如：example.com, www.example.com
 filename_case: 0                   # 文件名大小写转换：0 保持原样，1 转换为小写，2 转换为大写
 render_drafts: false               # 是否渲染草稿，true or false
-post_asset_folder: false           # 启用/禁用资产文件夹，true or false
+post_asset_folder: true            # 启用/禁用资产文件夹，true or false（HexoHub 图片拖入需要开启）
 relative_link: false               # 是否使链接相对于根文件夹，true or false
 future: true                       # 是否发布未来的文章，true or false
 syntax_highlighter: prismjs        # 语法高亮引擎，可选值：highlight.js, prismjs
@@ -151,4 +151,10 @@ aplayer:
 # 插件：https://hexo.io/plugins/
 # 主题：https://hexo.io/themes/
 theme: butterfly
+
+# Deployment # 部署设置
+deploy:
+  type: git
+  repo: https://github.com/Cat-eating-fish/Cat-eating-fish.github.io
+  branch: gh-pages
 
