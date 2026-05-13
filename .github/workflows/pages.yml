@@ -24,11 +24,6 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
-      - name: Checkout theme
-        run: |
-          if [ ! -d themes/butterfly ]; then
-            git clone --depth=1 https://github.com/jerryc127/hexo-theme-butterfly themes/butterfly
-          fi
       - name: Install Dependencies
         run: npm install
       - name: Build
